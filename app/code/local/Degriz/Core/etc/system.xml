@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <Degriz translate="label" module="degriz_gdprnewsletter">
+            <label>Degriz Extensions</label>
+            <sort_order>100</sort_order>
+        </Degriz>
+    </tabs>
+    <sections>
+        <degriz_core>
+            <label>Degriz Core</label>
+            <tab>Degriz</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <footer_section translate="label">
+                    <label>Footer Section</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <about translate="label">
+                            <label>About content</label>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>degriz_core/adminhtml_system_config_editor</frontend_model>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </about>
+                        <facebook translate="label">
+                            <label>Facebook url</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </facebook>
+                        <instagram translate="label">
+                            <label>Instagram url</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </instagram>
+                        <footer_title_1 translate="label">
+                            <label>Footer Title 1</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </footer_title_1>
+                        <footer_content_1 translate="label">
+                            <label>Footer Content 1</label>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>degriz_core/adminhtml_system_config_editor</frontend_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </footer_content_1>
+                        <footer_title_2 translate="label">
+                            <label>Footer Title 2</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </footer_title_2>
+                        <footer_content_2 translate="label">
+                            <label>Footer Content 2</label>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>degriz_core/adminhtml_system_config_editor</frontend_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </footer_content_2>
+                        <footer_title_3 translate="label">
+                            <label>Footer Title 3</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </footer_title_3>
+                        <footer_content_3 translate="label">
+                            <label>Footer Content 3</label>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>degriz_core/adminhtml_system_config_editor</frontend_model>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </footer_content_3>
+                        <!-- Add similar fields for Footer Content 1, Footer Title 2, Footer Content 2, and so on -->
+                    </fields>
+                </footer_section>
+                <product_list translate="label">
+                    <label>Product List</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <image_height translate="label">
+                            <label>Image Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </image_height>
+                        <image_width translate="label">
+                            <label>Image Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </image_width>
+                        <enable_wishlist translate="label">
+                            <label>Enable Wishlist</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_wishlist>
+                        <enable_compare translate="label">
+                            <label>Enable Compare</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_compare>
+                        <show_add_to_cart translate="label">
+                            <label>Show Add to Cart</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </show_add_to_cart>
+                    </fields>
+                </product_list>
+            </groups>
+        </degriz_core>
+    </sections>
+</config>
